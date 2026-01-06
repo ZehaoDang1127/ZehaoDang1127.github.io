@@ -11,35 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Controls, Robotics and Autonomy, Virginia Tech, 2027 (expected)
+* B.E. in Electrical and Computer Engineering, Sichuan University, 2027 (expected)
+* High School, Affiliated High School of Peking University, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2024: Semiconductor Testing Intern
+  * Hi-Tech Optoelectronics Co., Ltd.  Beijing, China
+  * Duties includes: Semiconductor chip module tests, setiing up DPL power units
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Research Paper Writing, LaTeX
+* Coding Languages (Basic)
+  * C++
+  * Matlab
+  * Verilog
+  * Python
+* Microsoft Office
+* CAD Design
 
 Publications
 ======
@@ -47,18 +38,9 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Sichuan University-Pittsburgh Institute Soccer Team Captain
+* High School Peer Advisor
+* High School Orientation Volunteer
+* High School Soccer Varsity Captain
