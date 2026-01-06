@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Zehao Dang"
 title_separator          : "-"
 name                     : &name "Zehao Dang"
@@ -23,7 +23,7 @@ repository               : "ZehaoDang1127/ZehaoDang1127.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ProfilePic.jpg"
+  avatar           : "ProfilePic.png"
   name             : "Zehao Dang"
   pronouns         : "he/him"  
   bio              : "I am a junior student majoring Electrical Engineering in Virginia Tech."
