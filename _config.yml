@@ -23,10 +23,10 @@ repository               : "ZehaoDang1127/ZehaoDang1127.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "ProfilePic.jpg"
   name             : "Zehao Dang"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I am a junior student majoring Electrical Engineering in Virginia Tech."
   location         : "Blacksburg, VA"
   employer         : "Virginia Tech"
   uri              : # URL
