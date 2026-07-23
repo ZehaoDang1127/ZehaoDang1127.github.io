@@ -12,7 +12,7 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Zehao Dang"
 title_separator          : "-"
 name                     : &name "Zehao Dang"
-description              : &description "Zehao's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Zehao Dang's portfolio: computer engineering, robotics, and medical robotics research."
 url                      : https://zehaodang1127.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "ProfilePic.png"
   name             : "Zehao Dang"
   pronouns         : "he/him"  
-  bio              : "Undergraduate student majoring Electrical Engineering at Virginia Tech."
+  bio              : "Computer Engineering student focused on Control, Robotics and Autonomy."
   location         : "Blacksburg, VA"
-  employer         : "Virginia Tech"
+  employer         : "Virginia Tech Grado Department of Industrial and Systems Engineering"
   uri              : # URL
   email            : "dangzehao@vt.edu" 
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "zehaodang"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

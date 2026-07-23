@@ -1,152 +1,127 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Zehao Dang",
+    "email": "dangzehao@vt.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://zehaodang1127.github.io",
+    "summary": "Computer Engineering student at Virginia Tech focused on control, robotics, autonomy, and medical robotics research.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Blacksburg",
       "countryCode": "US",
-      "region": ""
+      "region": "Virginia"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "zehaodang",
+        "url": "https://www.linkedin.com/in/zehaodang/"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ZehaoDang1127",
+        "url": "https://github.com/ZehaoDang1127"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Virginia Tech Grado Department of Industrial and Systems Engineering",
+      "position": "Undergraduate Research Intern, HAIM Lab",
+      "location": "Blacksburg, VA",
+      "startDate": "2026-04",
+      "endDate": "",
+      "summary": "Leading a medical 3D-printing robotics simulation project using Python and Isaac Sim.",
+      "highlights": [
+        "Medical robotics simulation",
+        "Python, Isaac Sim, Linux, and 3D printing"
+      ]
+    },
+    {
+      "name": "Sichuan University-Pittsburgh Institute",
+      "position": "Undergraduate Research Assistant",
+      "location": "Chengdu, Sichuan, China",
+      "startDate": "2024-03",
+      "endDate": "2025-05",
+      "summary": "Researched infrared-thermography-based diagnosis of pancreatic cancer under Dr. Jeungphill Hanne.",
+      "highlights": [
+        "Infrared thermography",
+        "Literature review and LaTeX"
+      ]
+    },
+    {
+      "name": "Hi-Tech Optoelectronics Co., Ltd.",
+      "position": "Semiconductor Testing Intern",
+      "location": "Haidian District, Beijing, China",
+      "startDate": "2024-07",
+      "endDate": "2024-07",
+      "summary": "Performed semiconductor chip-module testing and set up DPL power units.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Virginia Tech",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2025-08",
+      "endDate": "2027-05",
       "gpa": null,
-      "courses": []
+      "courses": [
+        "Applied Software Design",
+        "Continuous and Discrete Systems"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Sichuan University",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2023-09",
+      "endDate": "2025-07",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Robotics and simulation",
+      "level": "",
+      "keywords": ["Industrial Robotics", "Isaac Sim", "3D Printing", "Linux"]
+    },
+    {
+      "name": "Programming and engineering tools",
+      "level": "",
+      "keywords": ["C++", "Python", "MATLAB", "Arduino", "Verilog", "LaTeX", "R"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Medical robotics",
+      "keywords": ["Control", "Robotics", "Autonomy", "Simulation"]
+    }
+  ],
   "references": [],
-  "publications": [
+  "awards": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "title": "Dean's List",
+      "date": "2026-07",
+      "awarder": "College of Engineering, Virginia Tech",
+      "summary": "Named to the Dean's List for Spring 2026 with a 3.73 GPA across a 17-credit curriculum."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
