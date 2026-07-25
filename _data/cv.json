@@ -2,7 +2,7 @@
   "basics": {
     "name": "Zehao Dang",
     "email": "dangzehao@vt.edu",
-    "phone": "",
+    "phone": "+1 540 824 8315",
     "website": "https://zehaodang1127.github.io",
     "summary": "Computer Engineering student at Virginia Tech focused on industrial robotics, smart manufacturing, digital twins, and robotics learning.",
     "location": {
@@ -27,72 +27,110 @@
   },
   "work": [
     {
-      "name": "Virginia Tech Grado Department of Industrial and Systems Engineering",
-      "position": "Undergraduate Research Intern, HAIM Lab",
+      "name": "Virginia Tech",
+      "position": "Undergraduate Research Intern, HAIM Lab @ VT ISE",
       "location": "Blacksburg, VA",
       "startDate": "2026-04",
       "endDate": "",
-      "summary": "Leading a medical 3D-printing robotics simulation project using Python and Isaac Sim.",
+      "summary": "Leading a project in medical 3D-printing robotics simulation with Python and Isaac Sim.",
       "highlights": [
-        "Medical robotics simulation",
-        "Python, Isaac Sim, Linux, and 3D printing"
+        "Director: Dr. Yuhao Zhong"
       ]
     },
     {
       "name": "Sichuan University-Pittsburgh Institute",
-      "position": "Undergraduate Research Assistant",
-      "location": "Chengdu, Sichuan, China",
-      "startDate": "2024-03",
-      "endDate": "2025-05",
-      "summary": "Researched infrared-thermography-based diagnosis of pancreatic cancer under Dr. Jeungphill Hanne.",
+      "position": "Undergraduate Research Intern, Math Department @ SCUPI",
+      "location": "Sichuan, China",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "EEG data analysis for Alzheimer's disease classification, literature review, and paper writing.",
       "highlights": [
-        "Infrared thermography",
-        "Literature review and LaTeX"
+        "Director: Dr. Zheng Yang"
+      ]
+    },
+    {
+      "name": "Sichuan University-Pittsburgh Institute",
+      "position": "Undergraduate Research Intern, ECE Department @ SCUPI",
+      "location": "Sichuan, China",
+      "startDate": "2024-03",
+      "endDate": "2025-06",
+      "summary": "Explored camera configuration for IR-thermography detection of pancreatic cancer.",
+      "highlights": [
+        "Director: Dr. Jeungphill Hanne"
       ]
     },
     {
       "name": "Hi-Tech Optoelectronics Co., Ltd.",
       "position": "Semiconductor Testing Intern",
-      "location": "Haidian District, Beijing, China",
+      "location": "Beijing, China",
       "startDate": "2024-07",
-      "endDate": "2024-07",
-      "summary": "Performed semiconductor chip-module testing and set up DPL power units.",
+      "endDate": "2024-08",
+      "summary": "Tested semiconductor chip modules and set up DPL power units.",
       "highlights": []
     }
   ],
   "education": [
     {
       "institution": "Virginia Tech",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor of Science",
+      "location": "Blacksburg, VA, United States",
+      "area": "B.S. in Computer Engineering",
+      "studyType": "College of Engineering",
       "startDate": "2025-08",
-      "endDate": "2027-05",
-      "gpa": null,
+      "endDate": "",
+      "gpa": "3.47/4.0",
       "courses": [
-        "Applied Software Design",
-        "Continuous and Discrete Systems"
+        "Control, Robotics and Autonomy"
       ]
     },
     {
       "institution": "Sichuan University",
-      "area": "Electrical and Computer Engineering",
-      "studyType": "Bachelor of Engineering",
+      "location": "Sichuan, China",
+      "area": "B.E. in Electrical and Computer Engineering",
+      "studyType": "Sichuan University Pittsburgh Institute",
       "startDate": "2023-09",
       "endDate": "2025-07",
-      "gpa": null,
+      "gpa": "3.73/4.0",
       "courses": []
     }
   ],
   "skills": [
     {
-      "name": "Robotics and simulation",
+      "name": "Software Development",
       "level": "",
-      "keywords": ["Industrial Robotics", "Isaac Sim", "3D Printing", "Linux"]
+      "keywords": ["C++", "Python", "Docker", "Qt GUI", "CMake"]
     },
     {
-      "name": "Programming and engineering tools",
+      "name": "Robotics",
       "level": "",
-      "keywords": ["C++", "Python", "MATLAB", "Arduino", "Verilog", "LaTeX", "R"]
+      "keywords": ["Isaac Sim", "ROS2", "MATLAB", "CAD Design", "Arduino"]
+    },
+    {
+      "name": "Circuit Design",
+      "level": "",
+      "keywords": ["LTSpice", "Waveforms", "Verilog"]
+    },
+    {
+      "name": "Academic Writing",
+      "level": "",
+      "keywords": ["LaTeX", "Microsoft Office"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Arduino-based Blood Pressure Cuff System Design",
+      "context": "ECE 2804 Course Project",
+      "startDate": "2026-01",
+      "endDate": "2026-04",
+      "summary": "Circuit design and algorithm debugging.",
+      "highlights": []
+    },
+    {
+      "name": "Postlisp Graphical Interpreter with GUI",
+      "context": "ECE 3574 Course Project",
+      "startDate": "2025-09",
+      "endDate": "2025-11",
+      "summary": "C++-based, five-stage Postlisp graphical interpreter covering expression, tokenizer, environment, interpreter, and Qt GUI.",
+      "highlights": []
     }
   ],
   "languages": [
@@ -115,12 +153,33 @@
   "awards": [
     {
       "title": "Dean's List",
-      "date": "2026-07",
+      "date": "2026-05",
       "awarder": "College of Engineering, Virginia Tech",
-      "summary": "Named to the Dean's List for Spring 2026 with a 3.73 GPA across a 17-credit curriculum."
+      "summary": "Spring 2026"
+    },
+    {
+      "title": "Sichuan University Freshmen Soccer Cup Champion",
+      "date": "2024-12",
+      "awarder": "Sichuan University",
+      "summary": ""
+    },
+    {
+      "title": "Sichuan University Partial Scholarship, 2nd Prize",
+      "date": "2024-10",
+      "awarder": "Sichuan University",
+      "summary": ""
     }
   ],
-  "publications": [],
+  "publications": [
+    {
+      "name": "A Topological Classification for Alzheimer's Disease via Hemoglobin Concentration fNIRS Data",
+      "authors": "Siyuan Liu, Cheng Sun, Hangcheng Wu, Zehao Dang, Yucong Wei, Zheng Yang, Kang Li, Peng Chen, Yang Lv, Wenbo Zhang",
+      "publisher": "International Conference on Industrial Automation, Robotics and Control Engineering (IARCE)",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": ""
+    }
+  ],
   "presentations": [],
   "teaching": [],
   "portfolio": []

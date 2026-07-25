@@ -77,16 +77,19 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
+          <div class="cv-item-date">{{ education.startDate | date: "%b %Y" }} - {% if education.endDate %}{{ education.endDate | date: "%b %Y" }}{% else %}Present{% endif %}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ education.institution }}</div>
+          <div class="cv-item-subtitle">{{ education.institution }}{% if education.location %}, {{ education.location }}{% endif %}</div>
+          {% if education.studyType %}
+          <div class="cv-item-detail">{{ education.studyType }}</div>
+          {% endif %}
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
           {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
-            <strong>Courses:</strong> {{ education.courses | join: ", " }}
+            <strong>Coursework focus:</strong> {{ education.courses | join: ", " }}
           </div>
           {% endif %}
         </div>
@@ -105,7 +108,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
+          <div class="cv-item-date">{{ work.startDate | date: "%b %Y" }} - {% if work.endDate %}{{ work.endDate | date: "%b %Y" }}{% else %}Present{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ work.name | default: work.company }}</div>
@@ -123,6 +126,25 @@
           </ul>
           {% endif %}
         </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.projects.size > 0 %}
+  <!-- Projects -->
+  <div class="cv-section">
+    <h2>Projects</h2>
+    <ul class="cv-list">
+      {% for project in cv.projects %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ project.name }}</div>
+          <div class="cv-item-date">{{ project.startDate | date: "%b %Y" }} - {% if project.endDate %}{{ project.endDate | date: "%b %Y" }}{% else %}Present{% endif %}</div>
+        </div>
+        {% if project.context %}<div class="cv-item-subtitle">{{ project.context }}</div>{% endif %}
+        {% if project.summary %}<div class="cv-item-detail">{{ project.summary }}</div>{% endif %}
       </li>
       {% endfor %}
     </ul>
@@ -179,6 +201,9 @@
           <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
         </div>
         <div class="cv-item-content">
+          {% if publication.authors %}
+          <div class="cv-item-detail">{{ publication.authors }}</div>
+          {% endif %}
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
