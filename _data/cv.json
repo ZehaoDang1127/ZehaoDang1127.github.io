@@ -4,7 +4,7 @@
     "email": "dangzehao@vt.edu",
     "phone": "",
     "website": "https://zehaodang1127.github.io",
-    "summary": "Computer Engineering student at Virginia Tech focused on control, robotics, autonomy, and medical robotics research.",
+    "summary": "Computer Engineering student at Virginia Tech focused on industrial robotics, smart manufacturing, digital twins, and robotics learning.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -107,8 +107,8 @@
   ],
   "interests": [
     {
-      "name": "Medical robotics",
-      "keywords": ["Control", "Robotics", "Autonomy", "Simulation"]
+      "name": "Research interests",
+      "keywords": ["Industrial Robotics", "Smart Manufacturing", "Digital Twins", "Robotics Learning"]
     }
   ],
   "references": [],

@@ -12,7 +12,7 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Zehao Dang"
 title_separator          : "-"
 name                     : &name "Zehao Dang"
-description              : &description "Zehao Dang's portfolio: computer engineering, robotics, and medical robotics research."
+description              : &description "Zehao Dang's portfolio: industrial robotics, smart manufacturing, digital twins, and robotics learning."
 url                      : https://zehaodang1127.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "ProfilePic.png"
   name             : "Zehao Dang"
   pronouns         : "he/him"  
-  bio              : "Computer Engineering student focused on Control, Robotics and Autonomy."
+  bio              : "Computer Engineering student focused on industrial robotics and smart manufacturing."
   location         : "Blacksburg, VA"
-  employer         : "Virginia Tech Grado Department of Industrial and Systems Engineering"
+  employer         : "Virginia Tech"
   uri              : # URL
   email            : "dangzehao@vt.edu" 
 

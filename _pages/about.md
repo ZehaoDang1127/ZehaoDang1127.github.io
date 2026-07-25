@@ -11,8 +11,8 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="profile-intro-title">
   <p class="profile-eyebrow">Computer Engineering · Virginia Tech</p>
-  <h2 id="profile-intro-title">Building intelligent tools for robotics and healthcare.</h2>
-  <p>I am a rising senior in Computer Engineering focused on Control, Robotics and Autonomy. At Virginia Tech's HAIM Lab, I develop simulations for medical 3D-printing robotics using Python and Isaac Sim.</p>
+  <h2 id="profile-intro-title">Building intelligent systems for industrial robotics.</h2>
+  <p>I am a rising senior in Computer Engineering focused on industrial robotics, smart manufacturing, digital twins, and robotics learning. At Virginia Tech's HAIM Lab, I develop simulations for medical 3D-printing robotics using Python and Isaac Sim.</p>
   <div class="profile-actions">
     <a class="btn btn--primary" href="https://www.linkedin.com/in/zehaodang/">Connect on LinkedIn</a>
     <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">View CV</a>
@@ -26,9 +26,9 @@ redirect_from:
     <p>HAIM Lab · Virginia Tech ISE</p>
   </article>
   <article>
-    <p class="profile-card-label">Research focus</p>
-    <h3>Medical robotics</h3>
-    <p>Simulation, 3D printing, and autonomy</p>
+    <p class="profile-card-label">Research interests</p>
+    <h3>Industrial robotics</h3>
+    <p>Smart manufacturing, digital twins, and robotics learning</p>
   </article>
   <article>
     <p class="profile-card-label">Based in</p>
