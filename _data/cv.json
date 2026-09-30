@@ -2,9 +2,9 @@
   "basics": {
     "name": "Zehao Dang",
     "email": "dangzehao@vt.edu",
-    "phone": "+1 540 824 8315",
+    "phone": "+1 540-824-8315",
     "website": "https://zehaodang1127.github.io",
-    "summary": "Computer Engineering student at Virginia Tech focused on industrial robotics, smart manufacturing, digital twins, and robotics learning.",
+    "summary": "Computer Engineering student at Virginia Tech (Control, Robotics and Autonomy concentration) working on vision-based adaptive 3D printing, robotic additive manufacturing, and autonomous ground-vehicle simulation.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,112 +27,142 @@
   },
   "work": [
     {
-      "name": "Virginia Tech",
-      "position": "Undergraduate Research Intern, HAIM Lab @ VT ISE",
+      "name": "Grado Department of Industrial and Systems Engineering, Virginia Tech",
+      "position": "Research Assistant (Paid, Part-Time)",
       "location": "Blacksburg, VA",
-      "startDate": "2026-04",
+      "startDate": "2026-04-01",
       "endDate": "",
-      "summary": "Leading a project in medical 3D-printing robotics simulation with Python and Isaac Sim.",
+      "summary": "Leading a vision-based adaptive 3D-printing system for dynamically deforming surfaces and a robotic additive manufacturing pipeline for the UR5e, validated in NVIDIA Isaac Sim.",
       "highlights": [
-        "Director: Dr. Yuhao Zhong"
-      ]
-    },
-    {
-      "name": "Sichuan University-Pittsburgh Institute",
-      "position": "Undergraduate Research Intern, Math Department @ SCUPI",
-      "location": "Sichuan, China",
-      "startDate": "2025-05",
-      "endDate": "2025-08",
-      "summary": "EEG data analysis for Alzheimer's disease classification, literature review, and paper writing.",
-      "highlights": [
-        "Director: Dr. Zheng Yang"
-      ]
-    },
-    {
-      "name": "Sichuan University-Pittsburgh Institute",
-      "position": "Undergraduate Research Intern, ECE Department @ SCUPI",
-      "location": "Sichuan, China",
-      "startDate": "2024-03",
-      "endDate": "2025-06",
-      "summary": "Explored camera configuration for IR-thermography detection of pancreatic cancer.",
-      "highlights": [
-        "Director: Dr. Jeungphill Hanne"
+        "Leading the development of a vision-based adaptive 3D-printing system for dynamically deforming surfaces, integrating mechanical design, prototyping, Raspberry Pi control, computer vision and predictive feedback control; targeting submission to NAMRC 2027.",
+        "Led a team of 4 undergraduate researchers to develop an end-to-end robotic additive manufacturing pipeline converting Cura G-code into UR5e trajectories using inverse kinematics, redundancy-aware path optimization, and trajectory retiming, with simulation validation in NVIDIA Isaac Sim."
       ]
     },
     {
       "name": "Hi-Tech Optoelectronics Co., Ltd.",
-      "position": "Semiconductor Testing Intern",
-      "location": "Beijing, China",
-      "startDate": "2024-07",
-      "endDate": "2024-08",
-      "summary": "Tested semiconductor chip modules and set up DPL power units.",
-      "highlights": []
+      "position": "Product Quality Intern (Full-Time)",
+      "location": "Beijing, P.R. China",
+      "startDate": "2024-07-01",
+      "endDate": "2024-08-01",
+      "summary": "Inspected semiconductor laser chip modules for manufacturing defects and assembled and tested power-supply units for diode-pumped laser systems.",
+      "highlights": [
+        "Inspected semiconductor laser chip modules under optical microscopes to identify manufacturing defects and verify product quality. Supported production-line operations by assembling and testing power-supply units for diode-pumped laser systems."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "name": "AutoNav Team, VT CRO (Advisor: Dr. Matt Nowinski)",
+      "position": "Robotic Software Engineer",
+      "location": "Blacksburg, VA",
+      "startDate": "2026-08-01",
+      "endDate": "",
+      "summary": "Building a ROS2/Gazebo simulation environment for an autonomous ground vehicle competing in the 34th Intelligent Ground Vehicle Competition (IGVC).",
+      "highlights": [
+        "Building a ROS2/Gazebo simulation environment for an autonomous ground vehicle competing in the 34th Intelligent Ground Vehicle Competition (IGVC) in June 2027, including sensor simulation and navigation-stack validation.",
+        "Developing reproducible test scenarios to evaluate localization, path planning, and obstacle-avoidance algorithms."
+      ]
+    },
+    {
+      "name": "Math Department, Sichuan University - Pittsburgh Institute (PI: Dr. Zheng Yang)",
+      "position": "Undergraduate Researcher",
+      "location": "Chengdu, P.R. China",
+      "startDate": "2025-05-01",
+      "endDate": "2025-08-01",
+      "summary": "Evaluated machine-learning models for Alzheimer's disease classification and contributed to manuscript writing.",
+      "highlights": [
+        "Assisted in evaluating machine-learning models for AD, MCI, and NC classification by comparing test accuracy across classifiers.",
+        "Conducted literature review on machine-learning-based Alzheimer's disease classification and contributed to manuscript writing."
+      ]
+    },
+    {
+      "name": "ECE Department, Sichuan University - Pittsburgh Institute (PI: Dr. Jeungphill Hanne)",
+      "position": "Undergraduate Researcher",
+      "location": "Chengdu, P.R. China",
+      "startDate": "2024-03-01",
+      "endDate": "2025-05-01",
+      "summary": "Reviewed analytical methods for infrared thermography-based bone-fracture diagnosis and coordinated team research-paper presentations.",
+      "highlights": [
+        "Conducted a literature review of analytical methods for infrared thermography-based bone-fracture diagnosis. Coordinated biweekly research-paper presentations for a team of six undergraduate researchers."
+      ]
     }
   ],
   "education": [
     {
       "institution": "Virginia Tech",
-      "location": "Blacksburg, VA, United States",
+      "location": "Blacksburg, VA",
       "area": "B.S. in Computer Engineering",
-      "studyType": "College of Engineering",
-      "startDate": "2025-08",
-      "endDate": "",
-      "gpa": "3.47/4.0",
+      "studyType": "Control, Robotics and Autonomy Concentration",
+      "startDate": "2025-08-01",
+      "endDate": "2027-05-01",
+      "gpa": "3.47 / 4.00",
       "courses": [
-        "Control, Robotics and Autonomy"
+        "Introduction to Control Systems",
+        "Principles of Robotics",
+        "Machine Learning"
       ]
     },
     {
       "institution": "Sichuan University",
-      "location": "Sichuan, China",
+      "location": "Chengdu, P.R. China",
       "area": "B.E. in Electrical and Computer Engineering",
-      "studyType": "Sichuan University Pittsburgh Institute",
-      "startDate": "2023-09",
-      "endDate": "2025-07",
-      "gpa": "3.73/4.0",
-      "courses": []
+      "studyType": "Sichuan University - Pittsburgh Institute",
+      "startDate": "2023-08-01",
+      "endDate": "2025-05-01",
+      "gpa": "3.73 / 4.00",
+      "courses": [
+        "Data Structures and Algorithms (C++)",
+        "Signals and Systems",
+        "Embedded Systems"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Software Development",
-      "level": "",
-      "keywords": ["C++", "Python", "Docker", "Qt GUI", "CMake"]
-    },
-    {
       "name": "Robotics",
       "level": "",
-      "keywords": ["Isaac Sim", "ROS2", "MATLAB", "CAD Design", "Arduino"]
+      "keywords": [
+        "NVIDIA Isaac Sim",
+        "ROS2",
+        "Gazebo"
+      ]
     },
     {
-      "name": "Circuit Design",
+      "name": "Software",
       "level": "",
-      "keywords": ["LTSpice", "Waveforms", "Verilog"]
+      "keywords": [
+        "Git",
+        "Python",
+        "C++",
+        "Linux",
+        "Qt",
+        "CMake",
+        "Docker",
+        "MATLAB"
+      ]
     },
     {
-      "name": "Academic Writing",
+      "name": "Hardware",
       "level": "",
-      "keywords": ["LaTeX", "Microsoft Office"]
+      "keywords": [
+        "CAD",
+        "3D Printing",
+        "Arduino",
+        "Raspberry Pi",
+        "LTspice"
+      ]
+    },
+    {
+      "name": "Technical Documentation",
+      "level": "",
+      "keywords": [
+        "LaTeX",
+        "Markdown",
+        "Microsoft Office"
+      ]
     }
   ],
-  "projects": [
-    {
-      "name": "Arduino-based Blood Pressure Cuff System Design",
-      "context": "ECE 2804 Course Project",
-      "startDate": "2026-01",
-      "endDate": "2026-04",
-      "summary": "Circuit design and algorithm debugging.",
-      "highlights": []
-    },
-    {
-      "name": "Postlisp Graphical Interpreter with GUI",
-      "context": "ECE 3574 Course Project",
-      "startDate": "2025-09",
-      "endDate": "2025-11",
-      "summary": "C++-based, five-stage Postlisp graphical interpreter covering expression, tokenizer, environment, interpreter, and Qt GUI.",
-      "highlights": []
-    }
-  ],
+  "projects": [],
   "languages": [
     {
       "language": "Chinese",
@@ -146,28 +176,37 @@
   "interests": [
     {
       "name": "Research interests",
-      "keywords": ["Industrial Robotics", "Smart Manufacturing", "Digital Twins", "Robotics Learning"]
+      "keywords": [
+        "Industrial Robotics",
+        "Smart Manufacturing",
+        "Digital Twins",
+        "Robotics Learning"
+      ]
     }
   ],
   "references": [],
   "awards": [
     {
       "title": "Dean's List",
-      "date": "2026-05",
+      "date": "2026-05-01",
       "awarder": "College of Engineering, Virginia Tech",
       "summary": "Spring 2026"
     },
     {
-      "title": "Sichuan University Freshmen Soccer Cup Champion",
-      "date": "2024-12",
+      "title": "2nd Class Scholarship",
+      "date": "2025-10-01",
       "awarder": "Sichuan University",
-      "summary": ""
+      "summary": "2024, 2025"
+    }
+  ],
+  "testScores": [
+    {
+      "name": "GRE",
+      "score": "Quantitative 170, Verbal 154, Analytical Writing 3.5"
     },
     {
-      "title": "Sichuan University Partial Scholarship, 2nd Prize",
-      "date": "2024-10",
-      "awarder": "Sichuan University",
-      "summary": ""
+      "name": "IELTS",
+      "score": "Overall 8.0, Listening 9.0, Reading 8.5, Writing 8.0, Speaking 7.0"
     }
   ],
   "publications": [

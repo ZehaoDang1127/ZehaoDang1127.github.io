@@ -12,7 +12,7 @@ redirect_from:
 <section class="profile-hero" aria-labelledby="profile-intro-title">
   <p class="profile-eyebrow">Computer Engineering · Virginia Tech</p>
   <h2 id="profile-intro-title">Building intelligent systems for industrial robotics.</h2>
-  <p>I am a rising senior in Computer Engineering focused on industrial robotics, smart manufacturing, digital twins, and robotics learning. At Virginia Tech's HAIM Lab, I develop simulations for medical 3D-printing robotics using Python and Isaac Sim.</p>
+  <p>I am a senior in Computer Engineering (Control, Robotics and Autonomy) focused on industrial robotics, smart manufacturing, digital twins, and robotics learning. As a Research Assistant in Virginia Tech's Grado Department of Industrial and Systems Engineering, I lead a vision-based adaptive 3D-printing system for deforming surfaces and a UR5e robotic additive manufacturing pipeline validated in NVIDIA Isaac Sim. I also build ROS2/Gazebo simulation for VT's AutoNav team in the Intelligent Ground Vehicle Competition.</p>
   <div class="profile-actions">
     <a class="btn btn--primary" href="https://www.linkedin.com/in/zehaodang/">Connect on LinkedIn</a>
     <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">View CV</a>
@@ -22,8 +22,8 @@ redirect_from:
 <section class="profile-highlights" aria-label="Professional focus">
   <article>
     <p class="profile-card-label">Current role</p>
-    <h3>Undergraduate Research Intern</h3>
-    <p>HAIM Lab · Virginia Tech ISE</p>
+    <h3>Research Assistant</h3>
+    <p>Grado Department of ISE · Virginia Tech</p>
   </article>
   <article>
     <p class="profile-card-label">Research interests</p>
@@ -43,18 +43,14 @@ redirect_from:
     <h2 id="experience-title">Research and engineering</h2>
   </div>
   <div class="profile-timeline">
-    {% for work in cv.work %}
+    {% assign timeline = cv.work | concat: cv.experience | sort: "startDate" | reverse %}
+    {% for work in timeline %}
     <article class="profile-entry">
       <p class="profile-entry-date">{{ work.startDate | date: "%b %Y" }}{% if work.endDate != "" %} – {{ work.endDate | date: "%b %Y" }}{% else %} – Present{% endif %}</p>
       <div>
         <h3>{{ work.position }}</h3>
         <p class="profile-entry-org">{{ work.name }}</p>
         <p>{{ work.summary }}</p>
-        {% if work.highlights.size > 0 %}
-        <ul class="profile-chip-list" aria-label="{{ work.position }} skills">
-          {% for highlight in work.highlights %}<li>{{ highlight }}</li>{% endfor %}
-        </ul>
-        {% endif %}
       </div>
     </article>
     {% endfor %}
